@@ -1,0 +1,74 @@
+* {box-sizing: border-box;}
+body { 
+	background-color: lightslategray;
+	font: 14px/1.4 "Bell MT", Palatino, "Book Antiqua", serif;
+}
+
+.container {
+	width: 90%;
+	margin: 20px auto;
+	background-color: lightslategray;
+}
+
+.user-info, .favorites {
+	background-color: white;
+	border-radius: 8px;
+	margin: 40px 0;
+	padding: 40px;
+	overflow: hidden;
+	clear: both;
+}
+
+.favorites {
+	margin: 0 auto;
+}
+
+.left {
+	float: left;
+	padding-right: 20px;
+}
+
+h2 {
+	background-color: blue;
+	color: white;
+	padding: 20px;
+	border-radius: 5px;
+}
+
+.user-info > p {
+	padding-right: 200px;
+}
+
+.textbox {
+	position: relative;
+	display: block;
+	float: left;
+	width: 200px;
+	height: 80px;
+	padding: 5px;
+	border: 2px solid blue;
+	margin-right: 40px;
+	text-align: left;
+}
+
+.is-hidden {
+	display: none;
+}
+
+.save-button {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	background-color: lightslategray;
+	border-radius: 3px; 
+
+}
+
+.user-input > input {
+	border: none;
+	width: 100%;
+	font-size: 14px;
+	resize: none;
+
+
+}
