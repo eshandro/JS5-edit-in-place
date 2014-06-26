@@ -69,6 +69,10 @@ h2 {
 	width: 100%;
 	font-size: 14px;
 	resize: none;
+}
 
-
+#x-editable {
+	font-size: 14px;
+	text-decoration: none;
+	color: blue;
 }
